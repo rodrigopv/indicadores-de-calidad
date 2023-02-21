@@ -1,0 +1,31 @@
+:root {
+    --c-brand: #8664ff;
+    --c-brand-light: #8974ff;
+
+    
+  }
+
+  .logo {
+    height: 45px !important;
+  }
+
+  a.repo-link::before {
+    padding-left: 15px;
+    margin-right: 2px;
+    content: '';
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url('/github-mark.svg');
+    background-position: center;
+    color: #000;
+    font-weight: 400;
+  }
+
+  .message {
+    display: flex;
+    place-content: space-between;
+  }
+
+  .VPHero .VPImage {
+    height: 55%;
+  }

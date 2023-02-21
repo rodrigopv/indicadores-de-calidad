@@ -1,0 +1,17 @@
+{
+  "name": "indicadores-calidad-isp-subtel",
+  "version": "1.0.0",
+  "description": "Pagina para indicadores de calidad de ISP",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "vitepress": "^1.0.0-alpha.46",
+    "vue": "^3.2.47"
+  }
+}
